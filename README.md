@@ -6,7 +6,7 @@ Como executar a aplicação:
 
 Certifique-se de ter o Maven instalado e adicionado ao PATH de seu sistema operacional, assim como o Git.
 
-git clone https://github.com/Leancb/SimulaInvestimento
+git clone https://github.com/Leancb/prova_4all.git
 
 No terminal, execute a seguinte operação:
 
