@@ -61,7 +61,7 @@
         <version>4.7.2</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit-->
     <dependency>
         <groupId>io.cucumber</groupId>
         <artifactId>cucumber-junit</artifactId>
@@ -69,7 +69,7 @@
         <scope>test</scope>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+    <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit ok -->
     <dependency>
         <groupId>info.cukes</groupId>
         <artifactId>cucumber-junit</artifactId>
@@ -126,6 +126,12 @@
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
         <version>3.141.59</version>
+    </dependency>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.5.2</version>
+        <scope>test</scope>
     </dependency>
 
 

@@ -1,5 +1,5 @@
 # new feature
-# Tags: optional
+# Tags: 4All
 # language: pt
 
 Funcionalidade:
@@ -8,11 +8,17 @@ Funcionalidade:
   Para garantir aprovação no processo seletivo.
   https://www.youtube.com/watch?v=5eezIEYqfCo&list=PL6tu16kXT9PpteusHGISu_lHcV6MbBtA6&index=3
 
-  Esquema do Cenário: :  Desafio 1
-    Dado     que configurei ambiente para acessar URL Chrome
+    @4all
+    Esquema do Cenario: Desafio 1
+    Dado      que configurei ambiente para acessar URL <Tipo_Browser>
     Quando    abri tela do simulador de investimento
-    Então     Retorna a tela com resultado
+    Entao     Retorna a tela com resultado
     Exemplos:
-      | valorPoupar |tmpAplic|
-      | 100,00      |3       |
-      | 200,00      |4       |
+    | Tipo_Browser |
+    | chrome       |
+
+    @4all
+    Cenario: Desafio 2
+    Dado      configurei ambiente para acessar URL Chrome
+    Quando    abri tela do simulador de investimento
+    Entao     Retorna a tela com resultado

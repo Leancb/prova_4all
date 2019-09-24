@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.268 s - in runner.TestRunner
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.182 s <<< FAILURE! - in runner.TestRunner
+initializationError(runner.TestRunner)  Time elapsed: 0.003 s  <<< ERROR!
+cucumber.runtime.CucumberException: Failed to parse resource at: file:src/test/java/Feature/automacaoProvaBDD.feature
+Caused by: gherkin.ParserException$CompositeParserException: 
+Parser errors:
+(12:5): expected: #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Cen?rio: Desafio 1'
+(13:5): expected: #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Dado     que configurei ambiente para acessar URL Chrome'
+(14:5): expected: #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Quando   abri tela do simulador de investimento'
+(15:5): expected: #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Ent?o    Retorna a tela com resultado'
+(16:0): unexpected end of file, expected: #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty
+
