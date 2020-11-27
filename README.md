@@ -1,4 +1,4 @@
-# prova_4all
+# prova
 
 Automação usando java11, junit5, cucumber e maven;
 
